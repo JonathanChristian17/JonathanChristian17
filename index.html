@@ -229,6 +229,7 @@ a {
     width: 100%;
     object-fit: cover;
     mix-blend-mode: lighten;
+    height: auto;
 }
 
 .bars-animation {
@@ -254,6 +255,91 @@ a {
     }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .navbar .logo {
+        font-size: 24px;
+    }
+
+    .navbar ul li {
+        margin-left: 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5% 0;
+    }
+
+    .home-info h1 {
+        font-size: 40px;
+    }
+
+    .home-info h2 {
+        font-size: 24px;
+    }
+
+    .home-info p {
+        font-size: 14px;
+    }
+
+    .home-img .img-box {
+        width: 60vw;
+        height: 60vw;
+        margin-top: 20px;
+    }
+
+    .btn-sci {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-sci .sci {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 5%;
+    }
+
+    .navbar .logo {
+        font-size: 20px;
+    }
+
+    .navbar ul li {
+        margin-left: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+    }
+
+    .home-info h1 {
+        font-size: 32px;
+    }
+
+    .home-info h2 {
+        font-size: 20px;
+    }
+
+    .home-info p {
+        font-size: 12px;
+    }
+
+    .home-img .img-box {
+        width: 80vw;
+        height: 80vw;
+    }
+}
     </style>
 </head>
 <body>
@@ -286,7 +372,7 @@ a {
             <div class="btn-sci">
                 <a href="#" class="btn">Nothing to press</a>
                 <div class="sci">
-                    <a href="https://github.com/JonathanChristian17s"><i class='bx bxl-github'></i></a>
+                    <a href="https://github.com/JonathanChristian17"><i class='bx bxl-github'></i></a>
                     <a href="https://www.linkedin.com/in/jonathan-c-amadeo-sembiring"><i class='bx bxl-linkedin-square' ></i></a>
                     <a href="https://www.facebook.com/jonathan.christian.779642"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://www.instagram.com/jonathan_christian17/"><i class='bx bxl-facebook-circle' ></i></a>
